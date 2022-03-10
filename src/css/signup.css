@@ -1,0 +1,37 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    border-radius: 3px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+form button {
+    width: 380px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(15, 15, 19);
+    color: white;
+    font-size: 18px;
+}
+

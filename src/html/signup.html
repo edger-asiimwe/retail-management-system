@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Retail Management System - Home Page</title>
+        <link rel="stylesheet" href="css/signup.css">
     </head>
     <body>
         <div class="header">
@@ -21,13 +22,13 @@
         </div>
 
         <!--- Signup -->
-        <div class="">
+        <div class="signup-box">
             <div class="row">
                 <div class="placement">
                     <img src="" alt="Signup" class="signup-image-placement">
                 </div>
                 <div class="signup-form">
-                    <div class="container">
+                    <form class="container">
                         <label for="username"><b>Username</b></label>
                         <input type="text" placeholder="Enter Username" name="uname" required>
 
@@ -47,10 +48,10 @@
                         <input type="password" placeholder="Enter Password" name="psw" required>
                           
                         <button type="submit">Signup</button>
-                        <label>
-                          <input type="checkbox" checked="checked" name="remember"> Remember me
-                        </label>
-                      </div>
+                        <label for="remember">Remember me</label>
+                          <input type="checkbox" checked="checked" name="remember"> 
+                        
+                      </form>
                 </div>
             </div>
         </div>
