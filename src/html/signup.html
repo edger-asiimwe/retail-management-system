@@ -6,17 +6,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Retail Management System - Home Page</title>
         <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
     </head>
     <body>
         <div class="header">
-            <nav class="">
-                <div class="nav-wrapper">
+            <nav class="navbar">
+                <div class="nav-title">
                     <a href="#" class="vector-logo">Retail Management System</a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="blogs.html">Blogs</a></li>
-                        <li><a href="careers.html">Careers</a></li>
-                    </ul>
+                </div>
+                
+        
+                <ul id="nav-mobile" class="right hide-on-med-and-down navbar-links">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="blogs.html" class="nav-link">Blogs</a></li>
+                    <li class="nav-item"><a href="careers.html" class="nav-link">Careers</a></li>
+        
+                </ul>
+        
+                
+        
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
             </nav>
         </div>
@@ -54,7 +67,10 @@
                       </form>
                 </div>
             </div>
+
+            <p>Already have an Account ?<a href="login.html"> Login here</a></p>
         </div>
         <!--- End of Signup -->
+        <script src="scripts/script.js"></script>
     </body>
 </html>

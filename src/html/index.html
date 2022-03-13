@@ -6,30 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Retail Management System - Home Page</title>
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <!--- HEADER --->
-    <div class="header">
-        <nav class="navbar">
-            <div class="nav-title">
-                <a href="#" class="vector-logo">Retail Management System</a>
-            </div>
-            <ul id="nav-mobile" class="right hide-on-med-and-down navbar-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blogs.html">Blogs</a></li>
-                <li><a href="careers.html">Careers</a></li>
+<div class="header">
+    <nav class="navbar">
+        <div class="nav-title">
+            <a href="#" class="vector-logo">LOGO</a>
+        </div>
+        
 
-            </ul>
+        <ul id="nav-mobile" class="right hide-on-med-and-down navbar-links">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="blogs.html" class="nav-link">Blogs</a></li>
+            <li class="nav-item"><a href="careers.html" class="nav-link">Careers</a></li>
 
-            <div class="navbar-login">
-                <a href="signup.html">Signup / Login</a>
-            </div>
+        </ul>
 
-        </nav>
-    </div>
+        <div class="navbar-login nav-item">
+            <a href="signup.html" class="nav-link">Signup / Login</a>
+        </div>
+
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</div>
     <!--- End of Header-->
+
+    <!-- Hero section-->
+
+    <div class="hero">
+        <div class="text-box">
+            <p class="heading">RETAIL</p>
+            <p class="heading">MANAGEMENT SYSTEM</p>
+            <p class="text">Keep track of your business sales</p>
+        </div>
+
+        <div class="icons">
+            <ul>
+                <li><img src="images/facebook-round.svg" class="brands" alt=""></li>
+                <li><img src="images/whatsapp.svg" class="brands" alt=""></li>
+                <li><img src="images/twitter-round.svg" class="brands" alt=""></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- End hero section-->
+
+ 
 
     <!--- Our Services --->
     <section class="section" id="services">
@@ -96,6 +126,8 @@
             <p>&copy; Copyright 2022 Retail Management System</p>
         </div>
         <!--- End of Footer Section --->
+
+        <script src="scripts/script.js"></script>
 </body>
 
 </html>
